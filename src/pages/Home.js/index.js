@@ -20,6 +20,7 @@ export default function Home({ navigation }) {
         style={styles.input}
         multiline={false}
         placeholder="Senha"
+        secureTextEntry={true}
       ></TextInput>
 
       <TouchableOpacity style={styles.btnEnter}>
