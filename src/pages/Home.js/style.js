@@ -35,8 +35,19 @@ const styles = StyleSheet.create({
     marginTop: 30,
     width: "80%",
   },
-  btnText: {
-    color: "#fff",
+  btnText: {},
+  btnCreateAccount: {
+    justifyContent: "center",
+    textAlign: "center",
+    alignItems: "center",
+    backgroundColor: "#fff",
+    opacity: 1.0,
+    borderRadius: 15,
+    paddingVertical: 5,
+    marginTop: 30,
+    width: "80%",
+    borderWidth: 2,
+    borderColor: "#1967DB",
   },
 });
 

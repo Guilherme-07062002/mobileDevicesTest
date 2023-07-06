@@ -12,7 +12,15 @@ export default function Home({ navigation }) {
       <TextInput style={styles.input}></TextInput>
 
       <TouchableOpacity style={styles.btnEnter}>
-        <Text style={styles.btnText}>Entrar</Text>
+        <Text style={{ color: "#fff" }}>Entrar</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity>
+        <Text style={{fontWeight: "bold"}}>Esqueceu a senha?</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.btnCreateAccount}>
+        <Text style={{ color: "#1967DB" }}>Criar nova conta</Text>
       </TouchableOpacity>
 
       <StatusBar style="auto" />
