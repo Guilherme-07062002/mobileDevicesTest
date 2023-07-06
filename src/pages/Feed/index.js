@@ -45,6 +45,14 @@ export default function Feed({ navigation }) {
         source={require("../../../assets/post.png")}
       />
 
+      <View style={styles.bottom}>
+        <Text>home</Text>
+        <Text>search</Text>
+        <Text>add</Text>
+        <Text>reels</Text>
+        <Text>profile</Text>
+      </View>
+
       <StatusBar style="auto" />
     </View>
   );
