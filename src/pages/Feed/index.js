@@ -36,10 +36,10 @@ export default function Feed({ navigation }) {
       </View>
 
       <View style={styles.story}>
-        <Story></Story>
-        <Story></Story>
-        <Story></Story>
-        <Story></Story>
+        <Story name="Fulano"></Story>
+        <Story name="Cicrano"></Story>
+        <Story name="Beltrano"></Story>
+        <Story name="Jubileu"></Story>
       </View>
 
       <Image

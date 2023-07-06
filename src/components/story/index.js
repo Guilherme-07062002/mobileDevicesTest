@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { View, Image, Text } from "react-native";
 import styles from "./style";
 
-export default function Story() {
+export default function Story(props) {
   return (
     <View style={styles.container}>
       <Image
@@ -14,7 +14,7 @@ export default function Story() {
         }}
         source={require("../../../assets/story.png")}
       />
-      <Text>Usuário</Text>
+      <Text>{props.name}</Text>
 
       <StatusBar style="auto" />
     </View>
