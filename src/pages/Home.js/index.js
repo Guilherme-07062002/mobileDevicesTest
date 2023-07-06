@@ -32,7 +32,14 @@ export default function Home({ navigation }) {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.btnCreateAccount}>
-        <Text style={{ color: "#1967DB" }}>Criar nova conta</Text>
+        <Text
+          style={{ color: "#1967DB" }}
+          onPress={() => {
+            navigation.navigate("WhatYourName");
+          }}
+        >
+          Criar nova conta
+        </Text>
       </TouchableOpacity>
 
       <StatusBar style="auto" />
