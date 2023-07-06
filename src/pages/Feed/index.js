@@ -35,6 +35,16 @@ export default function Feed({ navigation }) {
         <Story></Story>
       </View>
 
+      <Image
+        style={{
+          position: "relative",
+          top: "16%",
+          width: "96%",
+          height: "61%",
+        }}
+        source={require("../../../assets/post.png")}
+      />
+
       <StatusBar style="auto" />
     </View>
   );
