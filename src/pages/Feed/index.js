@@ -70,7 +70,10 @@ export default function Feed({ navigation }) {
           source={require("../../../assets/reel.png")}
         />
         <Image
-          style={[styles.image, { backgroundColor: "#D4D4D4", borderRadius: 40 }]}
+          style={[
+            styles.image,
+            { backgroundColor: "#D4D4D4", borderRadius: 40 },
+          ]}
           source={require("../../../assets/story.png")}
         />
       </View>
