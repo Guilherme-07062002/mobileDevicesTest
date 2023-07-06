@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 import styles from "./style";
+import Story from "../../components/story";
 
 export default function Feed({ navigation }) {
   return (
@@ -25,6 +26,13 @@ export default function Feed({ navigation }) {
             <Text>msg</Text>
           </View>
         </View>
+      </View>
+
+      <View style={styles.story}>
+        <Story></Story>
+        <Story></Story>
+        <Story></Story>
+        <Story></Story>
       </View>
 
       <StatusBar style="auto" />

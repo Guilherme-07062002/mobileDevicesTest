@@ -17,8 +17,15 @@ const styles = StyleSheet.create({
   header: {
     position: "absolute",
     top: "6%",
-    borderStartColor: "red",
-    
+  },
+  story: {
+    display: "flex",
+    flexDirection: "row",
+    position: "absolute",
+    top: "15%",
+    width: "100%",
+    justifyContent: "space-around",
+    alignItems: "center",
   },
 });
 
