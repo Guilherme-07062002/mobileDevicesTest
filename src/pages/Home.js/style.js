@@ -6,11 +6,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    gap: 50,
-  },
-  inputContainer: {
-    flex: 1,
-    gap: 30,
+    gap: 20,
   },
   textStyle: {
     color: "#919191",
@@ -24,6 +20,7 @@ const styles = StyleSheet.create({
     width: "85%",
     height: 70,
     paddingHorizontal: 20,
+    textAlignVertical: "center",
   },
   btnEnter: {
     justifyContent: "center",
@@ -32,10 +29,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#1967DB",
     borderRadius: 30,
     paddingVertical: 10,
-    marginTop: 30,
     width: "80%",
   },
-  btnText: {},
   btnCreateAccount: {
     justifyContent: "center",
     textAlign: "center",
@@ -48,6 +43,7 @@ const styles = StyleSheet.create({
     width: "80%",
     borderWidth: 2,
     borderColor: "#1967DB",
+    marginTop: 80,
   },
 });
 

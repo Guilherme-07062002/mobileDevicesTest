@@ -6,17 +6,28 @@ export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.textStyle}>Português (Brasil)</Text>
-      <Image source={require("../../../assets/instagram-icon.png")} />
+      <Image
+        style={{ marginBottom: 40 }}
+        source={require("../../../assets/instagram-icon.png")}
+      />
 
-      <TextInput style={styles.input}></TextInput>
-      <TextInput style={styles.input}></TextInput>
+      <TextInput
+        style={styles.input}
+        multiline={false}
+        placeholder="Nome do usuário, email ou num..."
+      ></TextInput>
+      <TextInput
+        style={styles.input}
+        multiline={false}
+        placeholder="Senha"
+      ></TextInput>
 
       <TouchableOpacity style={styles.btnEnter}>
         <Text style={{ color: "#fff" }}>Entrar</Text>
       </TouchableOpacity>
 
       <TouchableOpacity>
-        <Text style={{fontWeight: "bold"}}>Esqueceu a senha?</Text>
+        <Text style={{ fontWeight: "bold" }}>Esqueceu a senha?</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.btnCreateAccount}>
