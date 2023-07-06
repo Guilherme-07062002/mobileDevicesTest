@@ -11,8 +11,9 @@ export default function Feed({ navigation }) {
           style={{
             display: "flex",
             flexDirection: "row",
-            gap: 140,
+            gap: 130,
             alignItems: "center",
+            justifyContent: "center",
           }}
         >
           <Image source={require("../../../assets/insta-letter.png")} />
@@ -22,8 +23,14 @@ export default function Feed({ navigation }) {
               flexDirection: "row",
             }}
           >
-            <Text style={{ marginRight: 20 }}>S2</Text>
-            <Text>msg</Text>
+            <Image
+              style={styles.image}
+              source={require("../../../assets/heart.png")}
+            />
+            <Image
+              style={styles.image}
+              source={require("../../../assets/message.png")}
+            />
           </View>
         </View>
       </View>
