@@ -6,7 +6,12 @@ export default function Story() {
   return (
     <View style={styles.container}>
       <Image
-        style={{ borderRadius: 60 }}
+        style={{
+          height: 80,
+          width: 80,
+          borderRadius: 60,
+          backgroundColor: "#D4D4D4",
+        }}
         source={require("../../../assets/story.png")}
       />
       <Text>Usuário</Text>

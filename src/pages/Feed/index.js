@@ -45,9 +45,9 @@ export default function Feed({ navigation }) {
       <Image
         style={{
           position: "relative",
-          top: "16%",
+          top: "11%",
           width: "96%",
-          height: "61%",
+          height: "65%",
         }}
         source={require("../../../assets/post.png")}
       />
@@ -70,7 +70,7 @@ export default function Feed({ navigation }) {
           source={require("../../../assets/reel.png")}
         />
         <Image
-          style={styles.image}
+          style={[styles.image, { backgroundColor: "#D4D4D4", borderRadius: 40 }]}
           source={require("../../../assets/story.png")}
         />
       </View>

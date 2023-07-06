@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   },
   header: {
     position: "absolute",
-    top: "6%",
+    top: "4%",
   },
   story: {
     display: "flex",
