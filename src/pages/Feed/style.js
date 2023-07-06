@@ -34,11 +34,15 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     bottom: 0,
-    gap: 20,
+    gap: 30,
     backgroundColor: "#fff",
     height: "8%",
     width: "100%",
   },
+  image: {
+    width: 50,
+    height: 50
+  }
 });
 
 export default styles;

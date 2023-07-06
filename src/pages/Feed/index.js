@@ -46,11 +46,26 @@ export default function Feed({ navigation }) {
       />
 
       <View style={styles.bottom}>
-        <Text>home</Text>
-        <Text>search</Text>
-        <Text>add</Text>
-        <Text>reels</Text>
-        <Text>profile</Text>
+        <Image
+          style={styles.image}
+          source={require("../../../assets/home.png")}
+        />
+        <Image
+          style={styles.image}
+          source={require("../../../assets/search.png")}
+        />
+        <Image
+          style={styles.image}
+          source={require("../../../assets/add.png")}
+        />
+        <Image
+          style={styles.image}
+          source={require("../../../assets/reel.png")}
+        />
+        <Image
+          style={styles.image}
+          source={require("../../../assets/story.png")}
+        />
       </View>
 
       <StatusBar style="auto" />
