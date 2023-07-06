@@ -23,7 +23,12 @@ export default function Home({ navigation }) {
         secureTextEntry={true}
       ></TextInput>
 
-      <TouchableOpacity style={styles.btnEnter}>
+      <TouchableOpacity
+        style={styles.btnEnter}
+        onPress={() => {
+          navigation.navigate("Feed");
+        }}
+      >
         <Text style={{ color: "#fff" }}>Entrar</Text>
       </TouchableOpacity>
 

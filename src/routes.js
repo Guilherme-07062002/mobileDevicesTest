@@ -2,8 +2,9 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Home from "./pages/Home.js";
-import WhatYourName from "./pages/WhatYourName.js";
+import Home from "./pages/Home";
+import WhatYourName from "./pages/WhatYourName";
+import Feed from "./pages/Feed";
 
 const Stack = createNativeStackNavigator();
 export default function Routes() {
@@ -18,6 +19,12 @@ export default function Routes() {
         <Stack.Screen
           name="WhatYourName"
           component={WhatYourName}
+          options={{ headerShown: false }}
+        />
+
+        <Stack.Screen
+          name="Feed"
+          component={Feed}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
