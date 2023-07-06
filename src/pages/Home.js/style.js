@@ -25,6 +25,19 @@ const styles = StyleSheet.create({
     height: 70,
     paddingHorizontal: 20,
   },
+  btnEnter: {
+    justifyContent: "center",
+    textAlign: "center",
+    alignItems: "center",
+    backgroundColor: "#1967DB",
+    borderRadius: 30,
+    paddingVertical: 10,
+    marginTop: 30,
+    width: "80%",
+  },
+  btnText: {
+    color: "#fff",
+  },
 });
 
 export default styles;

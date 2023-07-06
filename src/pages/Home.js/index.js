@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { Text, View, Image, TextInput } from "react-native";
+import { Text, View, Image, TextInput, TouchableOpacity } from "react-native";
 import styles from "./style";
 
 export default function Home({ navigation }) {
@@ -10,6 +10,10 @@ export default function Home({ navigation }) {
 
       <TextInput style={styles.input}></TextInput>
       <TextInput style={styles.input}></TextInput>
+
+      <TouchableOpacity style={styles.btnEnter}>
+        <Text style={styles.btnText}>Entrar</Text>
+      </TouchableOpacity>
 
       <StatusBar style="auto" />
     </View>
